@@ -1,0 +1,31 @@
+.carousel-inner {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    width: 100%;
+  }
+  
+  .carousel-wrapper img {
+    width: 33.33%;
+    height: auto;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+  }
+  
