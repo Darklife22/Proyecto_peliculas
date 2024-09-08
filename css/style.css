@@ -1,0 +1,13 @@
+hr {
+    border: 0; /* Elimina el borde predeterminado del <hr> */
+    height: 2px; /* Ajusta el grosor de la línea */
+    background-color: white; /* Color de la línea */
+    margin: 20px 0; /* Ajusta el margen superior e inferior según tus necesidades */
+  }
+  
+  /* Opcional: Si deseas agregar un fondo negro a la página */
+  body {
+    background-color: black;
+    color: white;
+  }
+  
